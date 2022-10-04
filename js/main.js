@@ -1,6 +1,6 @@
 const app = Vue.createApp({
   data: () => ({
-    message: "Hello Vue.js!",
+    // message: "Hello Vue.js!",
     // count: 99,
     // user: {
     //   lastName: "Kurihara",
@@ -8,6 +8,7 @@ const app = Vue.createApp({
     //   prefecture: "Tokyo"
     // },
     // colors: ["red", "Green", "Blue"]
+    toggle: true
   }),
 });
 app.mount("#app");
