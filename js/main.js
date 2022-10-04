@@ -1,6 +1,6 @@
 const app = Vue.createApp({
   data: () => ({
-    message: "Hello Vue.js!",
+    // message: "Hello Vue.js!",
     // count: 99,
     // user: {
     //   lastName: "Kurihara",
@@ -19,4 +19,7 @@ const app = Vue.createApp({
   //   }
   // }
 });
+app.component("hello-component", {
+  template: "<p>Hello</p>"
+})
 app.mount("#app");
