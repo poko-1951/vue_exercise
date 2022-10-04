@@ -7,8 +7,8 @@ const app = Vue.createApp({
     //   firstName: "Go",
     //   prefecture: "Tokyo"
     // },
-    // colors: ["red", "Green", "Blue"]
-    toggle: true
+    colors: ["Red", "Green", "Blue"]
+    // toggle: true
   }),
 });
 app.mount("#app");
